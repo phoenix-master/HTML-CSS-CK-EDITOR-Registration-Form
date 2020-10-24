@@ -1,0 +1,36 @@
+
+body{
+	background-image:url("../image/wonder.jpg");
+	background-repeat: : no-repeat;
+	background-size: cover;
+	background-position:fixed;
+	display:inline-block;
+
+}
+
+
+.fr{
+	font-family: courier;
+	border:solid black 5px;
+    padding:3px;
+	background-color:rgba(0, 191, 255,0.5);
+	background-repeat:no-repeat;
+	display:inline-block;
+	margin-left: 150px;
+	margin-top: 70px;
+	box-shadow: 10px 10px 10px 10px solid black;
+
+
+.tb{
+	padding:5px;
+	margin:5px;
+}
+
+.sb{
+	
+	margin-left: 250px;
+}
+.tt{
+	text-shadow: 2pxpx 3pxpx 1pxpx #1CFFFF;
+}
+

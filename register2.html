@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+	<meta charset="utf-8">
+	<title>fantasy world</title>
+	<link rel="stylesheet" href="css/register2.css">
+	<script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+</head>
+<body>
+
+
+	
+   <div class="fr">
+	<form>
+
+		<h2 style="font-family: sans-serif;font-style: italic;font-weight:800;">Fill your personal details below:-</h2>
+		<hr>
+		<table class="tb">
+			<strong>
+	<tr>
+		<td><p>First Name:<span style="color:red;">*</span><input type="text" name="name" placeholder="enter your first name" required=""></p></td>
+		<td><p>Last Name:<span style="color:red;">*</span><input type="text" name="name" placeholder="enter your last name" required=""></p></td>
+	</tr>
+	<tr>
+		<td><p>Phone No:<span style="color:red;">*</span><input type="tel" name="phn" placeholder="enter your mobile no" required=""></p></td>
+		<td><p>Email:<span style="color:red;">*</span><input type="email" name="email" placeholder="enter your gmail address" required=""></p></td>
+	</tr>
+	<tr>
+		<td><p>DOB:<span style="color:red;">*</span><input type="date" name="birthdate"  required=""></p></td>
+
+
+		<td> <label for="City">City:</label>
+       <select id="city">
+        <option value="city">--Select your city--</option>
+       	<optgroup label="West Bengal">
+       		<option value="kolkata">Kolkata</option> 
+       		<option value="darjeeling">Darjeeling</option> 
+       		<option value="kalimpong">Kalimpong</option> 
+       		<option value="suri">Suri</option> 
+       		<option value="sainthia">Sainthia</option> 
+       		<option value="bolpur">Bolpur</option> 
+       		<option value="kharagpur">Kharagpur</option> 
+       		<option value="bardhaman">Bardhaman</option> 
+       		<option value="asansol">Asansol</option> 
+       		<option value="durgapur">DUrgapur</option> 
+       		<option value="murshidabad">Murshidabad</option> 
+       		<option value="maldacity">Malda City</option> 
+       		<option value="siliguri">Siliguri</option> 
+       		<option value="jalpaiguri">Jalpaiguri</option> 
+       		<option value="raiganj">Raiganj</option> 
+       		<option value="balurghat">Balurghat</option> 
+       		<option value="purulia">Purulia</option> 
+       		<option value="baharampur">Baharampur</option> 
+       		<option value="krishnanagar">Krishnanagar</option> 
+       		<option value="barasat">Barasat</option> 
+       		<option value="barrackpore">Barrackpore</option> 
+       		<option value="ranaghat">Ranaghat</option> 
+       		<option value="baranagar">Baranagar</option> 
+       		<option value="serampore">Serampore</option> 
+       		<option value="chandananagar">Chandannagar</option> 
+       		<option value="chinsura">Chinsura</option> 
+       		<option value="kalyani">Kalyani</option> 
+       		<option value="tamluk">Tamluk</option> 
+       		<option value="medinipur">Medinipur</option> 
+       		<option value="nawadwip">Nabadwip</option> 
+       		<option value="contai">Contai</option> 
+       		<option value="coochbehar">Cooch Behar</option> 
+       		<option value="bankura">Bankura</option> 
+       		<option value="durgapur">DUrgapur</option> 
+       		<option value="murshidabad">Murshidabad</option> 
+       		<option value="maldacity">Malda City</option> 
+       		<option value="bishnupur">Bishnupur</option> 
+       		<option value="haldia">Haldia</option> 
+       	</optgroup>
+
+       	<optgroup label="Assam">
+       		<option value="dimapur">Guwahati/option>
+       		<option value="kaziranga">Silchar</option>
+       		<option value="dibrugh">Dibrugh</option>
+       		<option value="silchar">Silchar</option>
+       	    <option value="jorhat">Jorhat</option>
+       		<option value="nagaon">Nagaon</option>
+       		<option value="bongaigaon">Bongaigaon</option>
+       		<option value="tinsukia">Tinsukia</option>
+       		<option value="tezpur">Tezpur</option>
+        </optgroup>
+        </select>
+        <br></td>
+		
+		
+     <tr>
+      <td><p>State:<input type="text" name="state" placeholder="enter your sate name" required></p></td>
+      <td><p>Postal / ZIP Code:<span style="color:red;">*</span><input type="tel" name="pin" placeholder="enter your area pin code" required=""></p></td>
+  </tr>
+</strong>
+ 
+  </table>
+  
+  <p>Address:</p>
+  		<textarea name="address"></textarea>
+
+     <p class="sb"><input type="submit" value="Submit" style="color:green;">
+     <input type="reset" value="Clear" style="margin-left: 2px; color:red;"><p>
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+</svg>
+
+
+       
+	</form>
+</div>
+
+<script>
+	CKEDITOR.replace('address');
+	</script>
+	
+</body>
+	
+</html>
